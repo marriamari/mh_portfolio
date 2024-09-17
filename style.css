@@ -93,13 +93,13 @@ hr.belowNavTitle {
 	flex-direction: column;
 }
 
-.dot {
+/*.dot {
 	height: 5px;
 	width: 5px;
 	background-color:#4d0725;
 	border-radius: 50%;
 	visibility: hidden;
-}
+}*/
 
 .navItem:hover > div > span {
 	visibility: visible;
@@ -119,6 +119,10 @@ hr.belowNavTitle {
 	margin-left: 3%;
 	margin-right: 3%;
 }
+
+/*.headerItems img {
+	display: flex;
+}*/
 
 .headerItemA {
 	display: flex;
@@ -194,6 +198,13 @@ div.headerItems {
 }
 .annualText h2:hover{
 	color: #73103b;
+}
+
+.navHolder p {
+	color: #73103b ;
+}
+.navHolder p:hover{
+	color: #d6b6c3;
 }
 
 
